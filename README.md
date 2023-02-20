@@ -66,7 +66,7 @@ A(System Properties) --> B(Basic Configuration)
 B --> C(System Timezone)
 ```
 
-Edit the variables in the script to fit your needs:
+Edit the variables in the `midinstall.sh` script to fit your needs:
 
     INSTANCE="<name_of_your_instance>"
     MIDNAME="<name_of_your_midserver>"
@@ -83,6 +83,7 @@ A(MID Server) --> B(Downloads)
 
 Execute the installation script:
 
+    chmod a+x
     ~/midserver/midinstall.sh
 
 The Script will install required tools (if needed), download the MID Server software, install it and validate it with your Instance. Enjoy it.
