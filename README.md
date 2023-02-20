@@ -83,7 +83,7 @@ A(MID Server) --> B(Downloads)
 
 Execute the installation script:
 
-    chmod a+x
+    chmod a+x ~/midserver/midinstall.sh
     ~/midserver/midinstall.sh
 
 The Script will install required tools (if needed), download the MID Server software, install it and validate it with your Instance. Enjoy it.
