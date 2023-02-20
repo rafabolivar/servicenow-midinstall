@@ -1,9 +1,9 @@
 #!/bin/bash
 
-INSTANCE="bderafademo"
-MIDNAME="rafa_mid"
-MIDUSER="miduser"
-MIDPASSWD="your_mid_password"
+INSTANCE="<name_of_your_instance>"
+MIDNAME="<name_of_your_midserver>"
+MIDUSER="<name_of_your_miduser>"
+MIDPASSWD='<your_miduser_password>'
 MIDSW="https://install.service-now.com/glide/distribution/builds/package/app-signed/mid-linux-installer/2022/12/05/mid-linux-installer.tokyo-07-08-2022__patch4-11-23-2022_12-05-2022_2132.linux.x86-64.deb"
 MIDGPG="https://install.service-now.com/glide/distribution/builds/package/app-signed/mid-linux-installer/2022/12/05/mid-linux-installer.tokyo-07-08-2022__patch4-11-23-2022_12-05-2022_2132.linux.x86-64-deb.zip"
 
