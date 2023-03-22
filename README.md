@@ -20,7 +20,6 @@ Then you have to fill the form with the name and API ID you prefer. For instance
 |-------------------|---------------------------|
 |Name			 	|midvalidate			    |
 |API ID	        	|midvalidate		        |
-|API ID	         	|midvalidate		        |
 |Protection Policy  |None		             	|
 |Application        |Global		             	|
 |API Namespace      |snc						|
