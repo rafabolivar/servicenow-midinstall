@@ -38,7 +38,7 @@ Now, we will create the Script that will be executed when the API Method is call
 |-------------------|---------------------------|
 |Name			 	|midvalidate			    |
 |HTTP Method       	|POST				        |
-|Relative Path     	|midservername		        |
+|Relative Path     	|/{midservername}		        |
 
 In the Script text box, you'll have to paste the following code:
 
