@@ -25,7 +25,7 @@ unzip /home/$USER/midserver/midserver_key.zip -d /home/$USER/midserver/
 gpg --import /home/$USER/midserver/gpg-key.pem 
 dpkg-sig --verify /home/$USER/midserver/midserver.deb
 sudo dpkg -i /home/$USER/midserver/midserver.deb
-sudo /opt/servicenow/mid/agent/installer.sh -silent -INSTANCE_URL https://$INSTANCE.service-now.com -MUTUAL_AUTH N -MID_USERNAME $MIDUSER -MID_PASSWORD $MIDPASSWD -USE_PROXY N -MID_NAME $MIDNAME -APP_NAME mid -APP_LONG_NAME ServiceNow_MID_Server_Mid -NON_ROOT_USER $USER
+sudo /opt/servicenow/mid/agent/installer.sh -silent -INSTANCE_URL https://$INSTANCE.service-now.com -MUTUAL_AUTH N -MID_USERNAME $MIDUSER -MID_PASSWORD $MIDPASSWD -USE_PROXY N -MID_NAME $MIDNAME -APP_NAME mid -APP_LONG_NAME ServiceNow_MID_Server_Mid -CERTIFICATE_REVOCATION N -NON_ROOT_USER $USER
 echo "Waiting for MID Server to connect"
 echo "---------------------------------"
 sleep 20
